@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+iosLaunchConfigurationAttributes/ATTR_MINIFY=true
+iosLaunchConfigurationAttributes/ATTR_PROJECT_NAME=youTubeDownloader
+iosLaunchConfigurationAttributes/appid=com.grinapps.udownloader
+iosLaunchConfigurationAttributes/certificate=Carlos M Maldonado Berra (9F96GSA3ZM)
+iosLaunchConfigurationAttributes/distribute_path=/Users/eminem_vcu/Documents/Titanium_Studio_Workspace/ad-hoc-udownloader
+iosLaunchConfigurationAttributes/keychain=
+iosLaunchConfigurationAttributes/output_format=ipa
+iosLaunchConfigurationAttributes/sdk_version=7.1
+iosLaunchConfigurationAttributes/uuid=753edebb-78e8-4001-842b-e6e7ef00cae5

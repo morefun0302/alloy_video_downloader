@@ -1,0 +1,6 @@
+<Alloy>
+    <View id="enabledWrapperView">
+        <Button id="btnBookmark" />
+        <Button id="btnDownload" />
+    </View>
+</Alloy>

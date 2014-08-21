@@ -1,0 +1,160 @@
+"Window": {
+    barColor:'#ED0F20',
+    color:'#FFF'
+}
+"#tabGroup": {
+    width:Ti.UI.FILL
+}
+"#navQty": {
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    color:'#FFF',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'bold'
+    },
+    right:20
+}
+"#navCoin": {
+    width:19,
+    height:19,
+    backgroundImage:'/circoinicon.png',
+    color:'#FFF',
+    right:0
+}
+"#navCoin[platform=android]": {
+    width:'22dp',
+    backgroundImage:'/circoinicon.png',
+    color:'#FFF',
+    left:4
+}
+"#search": {
+    top:0,
+    height:43,
+    borderWidth:1,
+    barColor:'#E32634',
+    borderColor:'#E32634',
+    hintText:'Search for Videos',
+    showCancel:true,
+    tintColor:'#FFF'
+}
+"#search[platform=android]": {
+    top:0,
+    height:43,
+    hintText:'Search for Videos',
+    tintColor:'#FFF'
+}
+"#play": {
+    width:30,
+    height:30,
+    backgroundImage:'/playicon.png',
+    zIndex:2,
+    touchEnabled:false
+}
+"#title": {
+    color:'#4F4F4F',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:10,
+      fontWeight:'bold'
+    },
+    textAlign:'left',
+    top:0,
+    left:5,
+    height:16,
+    touchEnabled:false
+}
+"#title[platform=android]": {
+    color:'#4F4F4F',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:10,
+      fontWeight:'bold'
+    },
+    textAlign:'left',
+    top:0,
+    left:5,
+    height:'18dp',
+    touchEnabled:false
+}
+"#provider": {
+    color:'#4F4F4F',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:9,
+      fontWeight:'bold'
+    },
+    textAlign:'left',
+    top:0,
+    left:5,
+    height:12,
+    touchEnabled:false
+}
+"#excerpt": {
+    color:'#4F4F4F',
+    font: {
+      fontFamily:'Helvetica Neue',
+      fontSize:10
+    },
+    top:0,
+    left:5,
+    height:30,
+    touchEnabled:false
+}
+"#excerpt[platform=android]": {
+    color:'#4F4F4F',
+    font: {
+      fontFamily:'Helvetica Neue',
+      fontSize:10
+    },
+    left:5,
+    height:'35dp',
+    touchEnabled:false
+}
+"#sourceBar": {
+    height:70,
+    width:3,
+    right:70,
+    top:0
+}
+"#lblRowCoin": {
+    text:'x1',
+    font: {
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'normal'
+    },
+    color:"#FFF",
+    top:24,
+    right:32
+}
+"#coins": {
+    width:24,
+    backgroundImage:'/coinicon.png',
+    color:'#FFF',
+    top:10,
+    right:5
+}
+"#coins[platform=android]": {
+    width:'24dp',
+    height:'24dp',
+    backgroundImage:'/coinicon.png',
+    color:'#FFF',
+    top:12,
+    right:8
+}
+"#btnRowCoin": {
+    width:24,
+    backgroundImage:'/coinicon.png',
+    color:'#FFF',
+    top:21,
+    right:8
+}
+"#btnRowCoin[platform=android]": {
+    width:'24dp',
+    height:'24dp',
+    backgroundImage:'/coinicon.png',
+    color:'#FFF',
+    top:21,
+    right:8
+}

@@ -1,0 +1,23 @@
+<Alloy>
+    <Collection src="Bookmark" />
+    <Tab id="tabBookmark">
+        <Window id="win">
+            <TitleControl>
+                <Label id="titleWin" />
+            </TitleControl>
+           <RightNavButton platform=ios>
+                <View id="rightNav" width="Ti.UI.SIZE">
+                    <Label id="navQty" />
+                    <Button id="navCoin" />
+                </View>
+            </RightNavButton>
+            <!-- SEARCH BAR -->
+            <SearchBar id="search" platform="ios" />
+            <SearchView id="search" ns="Ti.UI.Android" platform="android" />
+            <!-- TABLE VIEW -->
+            <TableView id="bookmarkTableView" dataCollection="Bookmark" dataTransform="transformCollection" searchHidden="false" top="43">
+                <Require type="view" src="bookmark_row" />
+            </TableView>
+        </Window>
+    </Tab>
+</Alloy>

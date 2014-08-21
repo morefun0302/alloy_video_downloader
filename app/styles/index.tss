@@ -1,0 +1,274 @@
+"#viewContainer": {
+    height:'100%',
+    width:'100%',
+    top:0,
+    backgroundColor:'#000',
+    touchEnabled:true
+}
+"#viewCancel": {
+    top:0,
+    zIndex:1201,
+    backgroundColor:"#ED0F20",
+    width:Titanium.UI.FILL
+}
+"#tblSelectSource": {
+    color:'#FFF',
+    text:L('title_win_index')
+}
+"#lblIndication": {
+    text:L('label_indication'),
+    color:'#4F4F4F',
+    font:{
+      fontSize:14,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    top: 15,
+    left:25
+}
+"#uTubeicon": {
+    width:22,
+    backgroundImage:'/youtube.png',
+    left:75
+}
+"#uTubeicon[platform=android]": {
+    width:'22dp',
+    backgroundImage:'/youtube.png',
+    left:75
+}
+"#uTubeLabel": {
+    text:L('label_yt_setting'),
+    color:'#4F4F4F',
+    font:{
+      fontSize:14,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    left:105
+}
+"#youTubeBtn":{
+    title:' ',
+    top:9,
+    left:25,
+    width:32,
+    height:32,
+    borderColor:'#B8B8B8',
+    borderWidth:1,
+    borderRadius:5,
+    backgroundColor:'#FFF',
+    backgroundImage:'none',
+    color:'#FFF',
+    value:null
+}
+"#fbicon": {
+    width:22,
+    backgroundImage:'/facebook.png',
+    left:75
+}
+"#fbicon[platform=android]": {
+    width:'22dp',
+    backgroundImage:'/facebook.png',
+    left:75
+}
+"#fbLabel": {
+    text:L('label_fb_setting'),
+    color:'#4F4F4F',
+    font:{
+      fontSize:14,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    left:105
+}
+"#fbBtn":{
+    title:'',
+    top:9,
+    left:25,
+    width:32,
+    height:32,
+    borderColor:'#B8B8B8',
+    borderWidth:1,
+    borderRadius:5,
+    backgroundColor:'#FFF',
+    backgroundImage:'none',
+    color:'#FFF',
+    value:null
+}
+"#instagramicon": {
+    width:22,
+    backgroundImage:'/plus.png',
+    left:75
+}
+"#instagramicon[platform=android]": {
+    width:'22dp',
+    backgroundImage:'/plus.png',
+    left:75
+}
+"#instagramLabel": {
+    text:L('label_in_setting'),
+    color:'#4F4F4F',
+    font:{
+        fontSize:14,
+        fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    left:105
+}
+"#instagramBtn":{
+    title:'',
+    top:9,
+    left:25,
+    width:32,
+    height:32,
+    borderColor:'#B8B8B8',
+    borderWidth:1,
+    borderRadius:5,
+    backgroundColor:'#FFF',
+    backgroundImage:'none',
+    color:'#FFF',
+    value:null
+}
+"#vimeoicon": {
+    width:22,
+    backgroundImage:'/vimeo.png',
+    left:75
+}
+"#vimeoicon[platform=android]": {
+    width:'22dp',
+    backgroundImage:'/vimeo.png',
+    left:75
+}
+"#vimeoLabel": {
+    text:L('label_vim_setting'),
+    color:'#4F4F4F',
+    font:{
+      fontSize:14,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    left:105
+}
+"#vimeoBtn":{
+    title:'',
+    top:9,
+    left:25,
+    width:32,
+    height:32,
+    borderColor:'#B8B8B8',
+    borderWidth:1,
+    borderRadius:5,
+    backgroundColor:'#FFF',
+    backgroundImage:'none',
+    color:'#FFF',
+    value:null
+}
+"#dailyicon": {
+    width:50,
+    image:'/daily.png',
+    left:75
+}
+"#dailyicon[platform=android]": {
+    width:'50dp',
+    height:'9dp',
+    image:'/daily.png',
+    left:75
+}
+"#dailyLabel": {
+    text:L('label_dm_setting'),
+    color:'#4F4F4F',
+    font:{
+      fontSize:14,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    left:135
+}
+"#dailyBtn":{
+    title:'',
+    top:9,
+    left:25,
+    width:32,
+    height:32,
+    borderColor:'#B8B8B8',
+    borderWidth:1,
+    borderRadius:5,
+    backgroundColor:'#FFF',
+    backgroundImage:'none',
+    color:'#FFF',
+    value:null
+}
+"#vineicon": {
+    width:22,
+    backgroundImage:'/vine.png',
+    left:75
+}
+"#vineicon[platform=android]": {
+    width:'22dp',
+    backgroundImage:'/vine.png',
+    left:75
+}
+"#vineLabel": {
+    text:L('label_vin_setting'),
+    color:'#4F4F4F',
+    font:{
+      fontSize:14,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    left:105
+}
+"#vineBtn": {
+    title:'',
+    top:9,
+    left:25,
+    width:32,
+    height:32,
+    borderColor:'#B8B8B8',
+    borderWidth:1,
+    borderRadius:5,
+    backgroundColor:'#FFF',
+    backgroundImage:'none',
+    color:'#FFF',
+    value:null
+}
+"#disclaimerLabel": {
+    text:L('label_disclaimer'),
+    color:'#4F4F4F',
+    font:{
+      fontSize:14,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    top:15,
+    left:25,
+    width:'90%'
+}
+"#btnSync": {
+    title:'Sync',
+    width:80,
+    height:40,
+    borderWidth:1,
+    borderRadius:5,
+    borderColor:'#B8B8B8',
+    backgroundImage:'none',
+    color:'#000',
+    font:{
+      fontSize:14,
+      fontFamily:'Helvetica Neue'
+    }
+}
+"#btnApply": {
+    title:'Apply Filters',
+    width:120,
+    height:40,
+    borderWidth:1,
+    borderRadius:5,
+    borderColor:'#ED0F20',
+    backgroundColor:'#ED0F20',
+    backgroundImage:'none',
+    color:'#FFF',
+    font:{
+      fontSize:14,
+      fontFamily:'Helvetica Neue'
+    }
+}

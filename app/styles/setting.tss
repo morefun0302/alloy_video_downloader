@@ -1,0 +1,210 @@
+"#tabSetting": {
+    title:L('title_tab_setting'),
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'bold'
+    },
+    icon:'settingicon.png',
+    activeIcon:'settingicon_active.png',
+}
+"#titleWin": {
+    color:'#FFF',
+    text:L('title_win_setting')
+}
+"#tblSectionSource": {
+    text:L('label_source_setting'),
+    color:'#4F4F4F',
+    font:{
+      fontSize:16,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    left:20
+}
+"#uTubeicon": {
+    width:22,
+    height:22,
+    backgroundImage:'/youtube.png',
+    left:25
+}
+"#uTubeicon[platform=android]": {
+    width:'24dp',
+    height:'24dp',
+    backgroundImage:'/youtube.png',
+    left:25
+}
+"#uTubeLabel": {
+    text:L('label_syncyt_setting'),
+    color:'#4F4F4F',
+    font:{
+      fontSize:14,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    left:90
+}
+"#fbicon": {
+    width:22,
+    height:22,
+    backgroundImage:'/facebook.png',
+    left:25
+}
+"#fbicon[platform=android]": {
+    width:'24dp',
+    height:'24dp',
+    backgroundImage:'/facebook.png',
+    left:25
+}
+"#fbLabel": {
+    text:L('label_syncfb_setting'),
+    color:'#4F4F4F',
+    font:{
+      fontSize:14,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    left:90
+}
+"#instagramicon": {
+    width:22,
+    height:22,
+    backgroundImage:'/plus.png',
+    left:25
+}
+"#instagramicon[platform=android]": {
+    width:'24dp',
+    height:'24dp',
+    backgroundImage:'/plus.png',
+    left:25
+}
+"#instagramLabel": {
+    text:L('label_syncin_setting'),
+    color:'#4F4F4F',
+    font:{
+        fontSize:14,
+        fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    left:90
+}
+"#vimeoicon": {
+    width:22,
+    height:22,
+    backgroundImage:'/vimeo.png',
+    left:25
+}
+"#vimeoicon[platform=android]": {
+    width:'24dp',
+    height:'24dp',
+    backgroundImage:'/vimeo.png',
+    left:25
+}
+"#vimeoLabel": {
+    text:L('label_syncvim_setting'),
+    color:'#4F4F4F',
+    font:{
+      fontSize:14,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    left:90
+}
+"#dailyicon": {
+    width:50,
+    image:'/daily.png',
+    left:17
+}
+"#dailyicon[platform=android]": {
+    width:'50dp',
+    height:'9dp',
+    image:'/daily.png',
+    left:17
+}
+"#dailyLabel": {
+    text:L('label_syncdm_setting'),
+    color:'#4F4F4F',
+    font:{
+      fontSize:14,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    left:90
+}
+"#vineicon": {
+    width:22,
+    height:22,
+    backgroundImage:'/vine.png',
+    left:25
+}
+"#vineicon[platform=android]": {
+    width:'24dp',
+    height:'24dp',
+    backgroundImage:'/vine.png',
+    left:25
+}
+"#vineLabel": {
+    text:L('label_syncvin_setting'),
+    color:'#4F4F4F',
+    font:{
+      fontSize:14,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    left:90
+}
+"#viewBtnRate": {
+    text:L('label_rate_setting'),
+    color:'#FFF',
+    font:{
+      fontSize:16,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    top:25
+}
+"#lbl_buy": {
+    text:L('label_buy_setting'),
+    color:'#FFF',
+    font:{
+      fontSize:16,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    top:25,
+    left:5,
+    touchEnabled:false
+}
+"#lbl_earn": {
+    text:L('label_earn_setting'),
+    color:'#FFF',
+    font:{
+      fontSize:16,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    top:25,
+    left:5,
+    touchEnabled:false
+}
+"#coins": {
+    width:24,
+    backgroundImage:'/coinicon.png',
+    color:'#FFF',
+    top:24,
+    left:15
+}
+".tableviewrow-settings": {
+    backgroundColor:'#FFF',
+    selectionStyle:"NONE"
+}
+".tableviewsection-header": {
+    color:'#000',
+    font:{
+      fontSize:18,
+      fontFamily:'Helvetica Neue'
+    },
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    top:13,
+    left:10
+}

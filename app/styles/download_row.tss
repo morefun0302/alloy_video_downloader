@@ -1,0 +1,7 @@
+"#loadingImgView": {
+    top:0,
+    height:70,
+    width:80,
+    left:0,
+    backgroundColor:'#009'
+}

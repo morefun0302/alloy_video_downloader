@@ -1,0 +1,14 @@
+"#tabDownload": {
+    title:L('title_tab_download'),
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'bold'
+    },
+    icon:'downloadicon.png',
+    activeIcon:'downloadicon_active.png'
+}
+"#titleWin": {
+    color:'#FFF',
+    text:L('title_win_download')
+}

@@ -1,0 +1,27 @@
+"#loadingImgView": {
+    top:0,
+    height:70,
+    width:80,
+    left:0,
+    backgroundColor:'#009',
+    touchEnabled:false
+}
+"#rowContainer": {
+    backgroundColor:'#fff',
+    height:70,
+    width:Ti.Platform.displayCaps.platformWidth,
+    zIndex:2
+}
+"#lblRowCoin": {
+    touchEnabled:false
+}
+"#btnRowCoin": {
+    touchEnabled: false
+}
+"#lblCloseMe": {
+    text:'Close',
+    font:{fontFamily: 'Helvetica Neue', fontSize: 12, fontWeight: 'bold'},
+    color:'#000',
+    right:90,
+    visible:false
+}

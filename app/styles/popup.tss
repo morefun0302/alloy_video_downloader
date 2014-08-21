@@ -1,0 +1,123 @@
+"#popView": {
+    width:"90%",
+    height:"90%",
+    backgroundColor:"#fff",
+    zIndex:2
+}
+"#popTitle": {
+    width:'90%',
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+    color:'#000',
+    top:15,
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:16,
+      fontWeight:'bold'
+    }
+}
+"#cost": {
+    text:'Cost',
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+    color:'#000',
+    top:'25%',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'nomal'
+    }
+}
+"#lblCoin": {
+    text:'1',
+    font: {
+      fontFamily:'Helvetica Neue',
+      fontSize:20,
+      fontWeight:'bold'
+    },
+    color:"#000",
+    top:'32%',
+    right:'51%'
+}
+"#btnCoin": {
+    width:24,
+    backgroundImage:'/blackcoinicon.png',
+    color:'#FFF',
+    top:'32%',
+    right:'41%'
+}
+"#lblCoins": {
+    text:'Coins',
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+    color:'#000',
+    top:'41%',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'nomal'
+    }
+}
+"#btnCoin[platform=android]": {
+    width:'24dp',
+    backgroundImage:'/blackcoinicon.png',
+    color:'#FFF',
+    top:'32%',
+    right:'41%'
+}
+"#lblConfirmation": {
+    width:'90%',
+    text:L('label_confirm_download'),
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+    color:'#000',
+    top:'49%',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'nomal'
+    }
+}
+"#btnDownload": {
+    color:'#fff',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'nomal'
+    },
+    width:"90%",
+    height:35,
+    title:L('btn_popup_download_video'),
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+    backgroundColor:'#0f5194',
+    top:'63%'
+}
+"#btnGetCoin": {
+    color:'#fff',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'nomal'
+    },
+    width:"90%",
+    height:35,
+    title:L('btn_popup_get_coins'),
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+    backgroundColor:'#1bb6ec',
+    top:'75%'
+}
+"#separator": {
+    bottom:0,
+    height:1,
+    borderColor:"#e3e3e5",
+    top:'86%'
+}
+"#btnCancel": {
+    color:'#0f5194',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'nomal'
+    },
+    width:"90%",
+    height:35,
+    title:L('btn_popup_cancel'),
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+    top:'87%'
+}

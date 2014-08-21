@@ -1,0 +1,9 @@
+<Alloy>
+    <View id="mainView">
+        <View id="imgContainer">
+            <Label id="coinsIcon" />
+            <Label id="money" />
+            <View id="containerBlue"><Label id="price" /></View>
+        </View>
+    </View>
+</Alloy>

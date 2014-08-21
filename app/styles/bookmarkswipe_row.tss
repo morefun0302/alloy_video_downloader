@@ -1,0 +1,31 @@
+"#enabledWrapperView": {
+    backgroundColor:'#F9F9F9',
+    width:140,
+    height:70,
+    right:-140,
+    zIndex:1
+}
+"#sourceBar": {
+    backgroundColor:'#000',
+    right:210,
+    width:3,
+    height:70
+}
+"#btnDownload": {
+    title:L('btn_download_video'),
+    font:{fontFamily:'Helvetica Neue', fontSize:12, fontWeight:'normal'},
+    color:'#000',
+    backgroundColor:'#FFF',
+    right:70,
+    width:70,
+    height:70
+}
+"#btnRemove": {
+    title:L('btn_remove_bookmark_video'),
+    font:{fontFamily:'Helvetica Neue', fontSize:12, fontWeight:'bold'},
+    color:'#fff',
+    backgroundColor:'#ED0F20',
+    right:0,
+    width:70,
+    height:70
+}

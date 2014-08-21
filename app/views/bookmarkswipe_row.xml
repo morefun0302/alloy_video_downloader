@@ -1,0 +1,11 @@
+<Alloy>
+    <View id="enabledWrapperView">
+        <View id="sourceBar"></View>
+        <View id="coinView">
+            <Label id="lblCoinView" />
+            <Button id="btnCoinIcon" />
+        </View>
+        <Button id="btnDownload" />
+        <Button id="btnRemove" />
+    </View>
+</Alloy>

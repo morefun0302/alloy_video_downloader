@@ -1,0 +1,67 @@
+<Alloy>
+    <Tab id="tabSetting">
+        <Window id="win">
+            <TitleControl>
+                <Label id="titleWin" />
+            </TitleControl>
+             <RightNavButton platform=ios>
+                <View id="rightNav" width="Ti.UI.SIZE">
+                    <Label id="navQty" />
+                    <Button id="navCoin" />
+                </View>
+            </RightNavButton>
+            <!--  TABLE ROWS  -->
+            <TableView backgroundColor="#eee" rowHeight="70">
+                <TableViewSection>
+                    <TableViewRow id="rowBtnRate">
+                        <View width="100%" height="70" platform="ios">
+                            <Label id="viewBtnRate" color="#000" />
+                        </View>
+                    </TableViewRow>
+
+                    <TableViewRow id="rowBtnBuy">
+                        <View layout="vertical" backgroundColor="#0098ac" height="70" width="Ti.UI.FILL">
+                            <View layout="horizontal" width="Ti.UI.SIZE">
+                                <Label id="lbl_buy" />
+                                <Label id="coins" />
+                            </View>
+                        </View>
+                    </TableViewRow>
+
+                    <TableViewRow id="rowBtnEarn">
+                        <View layout="vertical" backgroundColor="#ff3b3d" height="70" width="Ti.UI.FILL">
+                            <View layout="horizontal" width="Ti.UI.SIZE">
+                                <Label id="lbl_earn" />
+                                <Label id="coins" />
+                            </View>
+                        </View>
+                    </TableViewRow>
+                </TableViewSection>
+
+                <TableViewSection>
+                    <HeaderView>
+                        <View height="40" backgroundColor="#FFF">
+                            <Label id="tblSectionSource" class="tableviewsection-header" />
+                            <View bottom="0" height="1" borderColor="#e3e3e5" />
+                        </View>
+                    </HeaderView>
+                    <TableViewRow class="tableviewrow-settings">
+                        <View width="100%" height="70">
+                            <Label id="uTubeicon" />
+                            <Label id="uTubeLabel" />
+                            <Switch id="youTubeSwitch" right="20" />
+                        </View>
+                    </TableViewRow>
+
+                    <TableViewRow class="tableviewrow-settings">
+                        <View width="100%" height="70">
+                            <ImageView id="dailyicon" />
+                            <Label id="dailyLabel" />
+                            <Switch id="dailySwitch" right="20" />
+                        </View>
+                    </TableViewRow>
+                </TableViewSection>
+            </TableView>
+        </Window>
+    </Tab>
+</Alloy>

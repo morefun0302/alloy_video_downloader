@@ -1,0 +1,37 @@
+"#viewContainer": {
+    height:'100%',
+    width:'100%',
+    top:0,
+    backgroundColor:'#000',
+    touchEnabled:true
+}
+"#viewCancel": {
+    top:0,
+    zIndex:1201,
+    backgroundColor:"#ED0F20",
+    width:Titanium.UI.FILL
+}
+"#titlePurchase": {
+    text:'Purchase Coins',
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+    color:'#FFF',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:18,
+      fontWeight:'nomal'
+    },
+    top:35,
+    left:'13%'
+}
+"#btnPurchaseCancel": {
+    title:L('btn_popup_cancel'),
+    textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+    color:'#FFF',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:16,
+      fontWeight:'nomal'
+    },
+    top:32,
+    left:5
+}

@@ -1,0 +1,14 @@
+"#tabBookmark": {
+    title:L('title_tab_bookmark'),
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'bold'
+    },
+    icon:'bookmarkicon.png',
+    activeIcon:'bookmarkicon_active.png',
+}
+"#titleWin": {
+    color:'#FFF',
+    text:L('title_win_bookmark')
+}

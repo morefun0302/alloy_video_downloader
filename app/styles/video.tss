@@ -1,0 +1,14 @@
+"#tabVideo": {
+    title:L('title_tab_video'),
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'bold'
+    },
+    icon:'videoicon.png',
+    activeIcon:'videoicon_active.png',
+}
+"#titleWin": {
+    color:'white',
+    text:L('title_win_video')
+}

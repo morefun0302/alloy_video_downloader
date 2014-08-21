@@ -1,0 +1,8 @@
+<Alloy>
+    <View id="BuyEarnView">
+        <Button id="btnEarnCoin" />
+        <Button id="btnBuyCoin" />
+        <View id="separator" />
+        <Button id="btnCancel" />
+    </View>
+</Alloy>

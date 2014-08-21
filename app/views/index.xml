@@ -1,0 +1,50 @@
+<Alloy>
+    <Window id="index">
+        <View id="viewContainer">
+            <!--  TABLE ROWS  -->
+            <View id="viewCancel" backgroundColor="#ED0F20" height="20dp" width="Ti.UI.FILL" layout="vertical">
+            </View>
+            <TableView backgroundColor="#FFF" separatorColor='#FFF' top="20">
+                <TableViewSection>
+                    <HeaderView>
+                        <View height="40" backgroundColor="#ED0F20">
+                            <Label id="tblSelectSource" />
+                        </View>
+                    </HeaderView>
+                </TableViewSection>
+                <TableViewSection>
+                    <HeaderView>
+                        <View height="80">
+                            <Label id="lblIndication" />
+                        </View>
+                    </HeaderView>
+                    <TableViewRow selectionStyle="NONE">
+                        <View width="Ti.UI.FILL" height="50">
+                            <Button id="youTubeBtn" />
+                            <Label id="uTubeicon" />
+                            <Label id="uTubeLabel" />
+                        </View>
+                    </TableViewRow>
+
+                    <TableViewRow selectionStyle="NONE">
+                        <View width="Ti.UI.FILL" height="50">
+                            <Button id="dailyBtn" />
+                            <ImageView id="dailyicon" />
+                            <Label id="dailyLabel" />
+                        </View>
+                    </TableViewRow>
+
+                    <TableViewRow selectionStyle="NONE">
+                        <View width="Ti.UI.FILL" height="50">
+                        </View>
+                    </TableViewRow>
+                    <TableViewRow selectionStyle="NONE">
+                        <View width="Ti.UI.FILL" height="50">
+                            <Button id="btnApply" />
+                        </View>
+                    </TableViewRow>
+                </TableViewSection>
+            </TableView>
+        </View>
+    </Window>
+</Alloy>

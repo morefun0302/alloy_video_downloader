@@ -1,0 +1,57 @@
+"#sorryView": {
+    width:"80%",
+    height:"50%",
+    backgroundColor:"#fff",
+    zIndex:2
+}
+"#lblTitle": {
+    text:L('label_sorry_title'),
+    width:'90%',
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+    color:'#000',
+    top:15,
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:16,
+      fontWeight:'bold'
+    }
+}
+"#lblMessage": {
+    width:'90%',
+    text:L('label_sorry_message'),
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+    color:'#000',
+    top:'25%',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'nomal'
+    }
+}
+"#btnGetCoin": {
+    color:'#fff',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'nomal'
+    },
+    width:"90%",
+    height:35,
+    title:L('btn_popup_get_coins'),
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+    backgroundColor:'#1bb6ec',
+    top:'55%'
+}
+"#btnCancel": {
+    color:'#0f5194',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'nomal'
+    },
+    width:"90%",
+    height:35,
+    title:L('btn_popup_cancel'),
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+    top:'77%'
+}

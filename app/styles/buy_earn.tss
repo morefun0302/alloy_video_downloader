@@ -1,0 +1,53 @@
+"#BuyEarnView": {
+    width:"80%",
+    height:"30%",
+    backgroundColor:"#fff",
+    zIndex:2
+}
+"#btnEarnCoin": {
+    color:'#fff',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'nomal'
+    },
+    width:"90%",
+    height:35,
+    title:L('label_earn_setting'),
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+    backgroundColor:'#0f5194',
+    top:'8%'
+}
+"#btnBuyCoin": {
+    color:'#fff',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'nomal'
+    },
+    width:"90%",
+    height:35,
+    title:L('btn_popup_get_coins'),
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+    backgroundColor:'#1bb6ec',
+    top:'38%'
+}
+"#separator": {
+    bottom:0,
+    height:1,
+    borderColor:"#e3e3e5",
+    top:'69%'
+}
+"#btnCancel": {
+    color:'#0f5194',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:14,
+      fontWeight:'nomal'
+    },
+    width:"90%",
+    height:35,
+    title:L('btn_popup_cancel'),
+    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER,
+    top:'70%'
+}

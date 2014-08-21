@@ -1,0 +1,21 @@
+<Alloy>
+    <Tab id="tabVideo">
+        <Window id="win">
+            <TitleControl>
+                <Label id="titleWin" />
+            </TitleControl>
+            <RightNavButton platform=ios>
+                <View id="rightNav" width="Ti.UI.SIZE">
+                    <Label id="navQty" />
+                    <Button id="navCoin" />
+                </View>
+            </RightNavButton>
+            <!-- SEARCH BAR -->
+            <SearchBar id="search" platform="ios" />
+            <SearchView id="search" ns="Ti.UI.Android" platform="android" />
+            <!-- TABLE VIEW -->
+            <TableView id="videoTableView" searchHidden="false" top="43">
+            </TableView>
+        </Window>
+    </Tab>
+</Alloy>

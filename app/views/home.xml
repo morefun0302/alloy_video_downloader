@@ -1,0 +1,8 @@
+<Alloy>
+    <TabGroup id="tabGroup" tabsBackgroundColor="#000" activeTabIconTint="#fff">
+        <Require src="video"/>
+        <Require src="bookmark"/>
+        <Require src="download"/>
+        <Require src="setting"/>
+    </TabGroup>
+</Alloy>

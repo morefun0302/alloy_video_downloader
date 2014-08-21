@@ -1,0 +1,46 @@
+"#mainView":{
+    width:Ti.UI.FILL,
+    height:Ti.UI.FILL,
+    layout:'vertical',
+    backgroundColor:'transparent',
+    zIndex:0
+},
+"#imgContainer": {
+    borderWidth:1,
+    borderColor:'#707070',
+    backgroundColor:'#2E3132'
+}
+"#coinsIcon": {
+    top:15,
+    width:30,
+    height:41,
+    backgroundImage:'/coins-icon.png',
+    zIndex:2,
+    touchEnabled:false
+}
+"#money":{
+    top:65,
+    color:'#FFF',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:18,
+      fontWeight:'bold'
+    },
+    touchEnabled:false
+}
+"#price": {
+    bottom:8,
+    color:'#FFF',
+    font:{
+      fontFamily:'Helvetica Neue',
+      fontSize:16,
+      fontWeight:'nomal'
+    },
+    touchEnabled:false
+}
+"#containerBlue": {
+    bottom:0,
+    height:35,
+    width:'100%',
+    backgroundColor:'#1bb6ec'
+}

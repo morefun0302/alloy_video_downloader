@@ -1,0 +1,25 @@
+"#enabledWrapperView": {
+    backgroundColor:'#F9F9F9',
+    width:140,
+    height:70,
+    right:-140,
+    zIndex:1
+}
+"#btnBookmark": {
+    title:L('btn_bookmark_video'),
+    font:{fontFamily:'Helvetica Neue', fontSize:12, fontWeight:'normal'},
+    color:'#FFF',
+    backgroundColor:'#0F5194',
+    right:70,
+    width:70,
+    height:70
+}
+"#btnDownload": {
+    title:L('btn_download_video'),
+    font:{fontFamily: 'Helvetica Neue', fontSize: 12, fontWeight: 'normal'},
+    color:'#000',
+    backgroundColor:'#FFF',
+    right:0,
+    width:70,
+    height:70
+}

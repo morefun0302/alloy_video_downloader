@@ -1,0 +1,67 @@
+<resources>
+    <!-- INDEX -->
+    <string name="title_win_index">Filter by Sources</string>
+    <string name="label_indication">Choose which networks you would like to search for Videos. You can always adjust in settings later.</string>
+    <string name="label_yt_setting">YouTube</string>
+    <string name="label_fb_setting">Facebook</string>
+    <string name="label_in_setting">Instagram</string>
+    <string name="label_vim_setting">Vimeo</string>
+    <string name="label_dm_setting">DailyMotion</string>
+    <string name="label_vin_setting">Vine</string>
+    <string name="label_disclaimer">In order to not lose your coins after uninstalling this app, we recommend you to sync with your youtube account.</string>
+    <!-- VIDEOS -->
+    <string name="title_win_video">Videos</string>
+    <string name="title_tab_video">Videos</string>
+    <string name="btn_bookmark_video">Bookmark</string>
+    <string name="btn_copy_video">Copy Link</string>
+    <string name="btn_download_video">Download</string>
+    <string name="btn_remove_bookmark_video">Remove</string>
+    <string name="label_confirm_download">Are you sure you want to download this video?</string>
+    <string name="btn_popup_download_video">Download</string>
+    <string name="btn_popup_get_coins">BUY Coins</string>
+    <string name="btn_popup_cancel">Cancel</string>
+    <!-- BOOKMARKS -->
+    <string name="title_win_bookmark">Bookmarks</string>
+    <string name="title_tab_bookmark">Bookmarks</string>
+    <!-- DOWNLOADS -->
+    <string name="title_win_download">Downloads</string>
+    <string name="title_tab_download">Downloads</string>
+    <!-- PURCHASES -->
+    <string name="label_purchase_50">50 Coins</string>
+    <string name="label_purchase_110">110 Coins</string>
+    <string name="label_purchase_180">180 Coins</string>
+    <string name="label_purchase_260">260 Coins</string>
+    <string name="label_purchase_500">500 Coins</string>
+    <string name="label_purchase_1000">1000 Coins</string>
+    <string name="label_purchase_10000">10000 Coins</string>
+
+    <string name="btn_purchase_50">$0.99 Buy now</string>
+    <string name="btn_purchase_110">$1.99 Buy now</string>
+    <string name="btn_purchase_180">$2.99 Buy now</string>
+    <string name="btn_purchase_260">$3.99 Buy now</string>
+    <string name="btn_purchase_500">$4.99 Buy now</string>
+    <string name="btn_purchase_1000">$9.99 Buy now</string>
+    <string name="btn_purchase_10000">$49.99 Buy now</string>
+    <!-- SETTINGS -->
+    <string name="title_win_setting">Settings</string>
+    <string name="title_tab_setting">Settings</string>
+    <string name="label_rate_setting">Rate this App</string>
+    <string name="label_buy_setting">Buy Coins</string>
+    <string name="label_earn_setting">Earn FREE Coins</string>
+    <string name="label_source_setting">Sources</string>
+    <string name="label_syncyt_setting">Sync with YouTube</string>
+    <string name="label_syncfb_setting">Sync with Facebook</string>
+    <string name="label_syncin_setting">Sync with Instagram</string>
+    <string name="label_syncvim_setting">Sync with Vimeo</string>
+    <string name="label_syncdm_setting">Sync with DailyMotion</string>
+    <string name="label_syncvin_setting">Sync with Vine</string>
+    <!-- SORRY -->
+    <string name="label_sorry_title">Sorry!</string>
+    <string name="label_sorry_message">You don't have enough coins to download this video.</string>
+    <string name="connect_window_close">Close</string>
+    <!-- INSTAGRAM -->
+    <string name="connect_window_title">Authorize</string>
+    <string name="instagram_error">There was an error talking to Instagram. Please try again a little later.</string>
+    <string name="instagram_auth_error">Instagram login error</string>
+    <string name="instagram_canceled">Instagram login canceled</string>
+</resources>

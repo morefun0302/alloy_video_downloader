@@ -1,0 +1,14 @@
+<Alloy>
+    <View id="popView">
+        <Label id="popTitle" />
+        <Label id="cost" />
+        <Label id="lblCoin" />
+        <Button id="btnCoin" />
+        <Label id="lblCoins" />
+        <Label id="lblConfirmation" />
+        <Button id="btnDownload" />
+        <Button id="btnGetCoin" />
+        <View id="separator" />
+        <Button id="btnCancel" />
+    </View>
+</Alloy>

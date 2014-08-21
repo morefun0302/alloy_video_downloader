@@ -1,0 +1,25 @@
+<Alloy>
+    <TableViewRow id="row" height="70" video_id="null" video_title="null" video_excerpt="null" video_url="null" video_provider="null" video_image_path="null" selectionStyle="NONE">
+        <View id="rowContainer">
+            <View id="playVideo" width="80" left="0">
+                <View id="play"></View>
+                <ImageView id="loadingImgView" />
+            </View>
+
+             <View id="infoVideo" width="50%" layout="vertical" left="80">
+                <Label id="title" />
+                <Label id="provider" />
+                <Label id="excerpt" />
+            </View>
+
+            <Label id="lblCloseMe" />
+
+            <View id="sourceBar"></View>
+
+            <View id="coinView" width="70" backgroundColor="#000" right="0">
+                <Label id="lblRowCoin" />
+                <Button id="btnRowCoin" />
+            </View>
+        </View>
+    </TableViewRow>
+</Alloy>

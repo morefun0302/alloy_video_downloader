@@ -1,0 +1,25 @@
+<Alloy>
+    <Collection src="Download" />
+    <Tab id="tabDownload">
+        <Window id="win">
+            <TitleControl>
+                <Label id="titleWin" />
+            </TitleControl>
+            <RightNavButton platform=ios>
+                <View id="rightNav" width="Ti.UI.SIZE">
+                    <Label id="navQty" />
+                    <Button id="navCoin" />
+                </View>
+            </RightNavButton>
+            <!-- SEARCH BAR -->
+            <SearchBar id="search" platform="ios" />
+            <SearchView id="search" ns="Ti.UI.Android" platform="android" />
+            <!-- PROGRESS BAR -->
+            <View id="progressBarView" height="70" width="Ti.UI.SIZE" backgroundColor="#F5F5F5" />
+            <!-- TABLE VIEW -->
+            <TableView id="downloadTableView" dataCollection="Download" dataTransform="transformCollection"  top="43">
+                <Require type="view" src="download_row" />
+            </TableView>
+        </Window>
+    </Tab>
+</Alloy>

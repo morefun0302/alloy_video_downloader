@@ -1,0 +1,8 @@
+<Alloy>
+    <View id="sorryView">
+        <Label id="lblTitle" />
+        <Label id="lblMessage" />
+        <Button id="btnGetCoin" />
+        <Button id="btnCancel" />
+    </View>
+</Alloy>
